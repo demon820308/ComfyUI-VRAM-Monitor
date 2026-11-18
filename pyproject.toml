@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-vram-monitor"
+description = "Top-bar real-time VRAM, RAM, and CPU monitor with one-click GPU memory cleanup for ComfyUI."
+version = "1.0.0"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["psutil"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/demon820308/ComfyUI-VRAM-Monitor"
+Issues = "https://github.com/demon820308/ComfyUI-VRAM-Monitor/issues"
+
+[tool.comfy]
+PublisherId = "demon820308"
+DisplayName = "ComfyUI VRAM Monitor"
+Icon = ""

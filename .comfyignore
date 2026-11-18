@@ -1,0 +1,6 @@
+tests/
+.github/
+.git/
+.gitignore
+__pycache__/
+*.py[cod]
